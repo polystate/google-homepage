@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+nav{
+    float: right;
+    margin-right: 1.5rem;
+    margin-top: 10px;
+} 
+
+#main{
+    text-align: center;
+    margin-top: 13rem; 
+}
+
+span{
+    float: right;
+}
+
+a{
+    margin: 0.35rem;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid lightgrey;
+    /* margin-top: 17.75rem; */
+    
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+}
+
+input{
+    block-size: 2em;
+    border-radius: 2rem;
+    border-color: lightgrey;
+    width: 20%;
+    outline: none;
+}
+
+p{
+    margin-left: 20px;
+    color: rgb(14, 13, 13);
+}
+
+#sign_in{
+    background: rgba(38, 38, 206, 0.815);
+    color: white;
+    height: 2em;
+}
+
+button{
+    border: none;
+    height: 2.75em;
+    background: rgb(241, 241, 241);
+}
