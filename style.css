@@ -15,20 +15,20 @@ nav{
     margin-top: 13rem; 
 }
 
-span{
+#bottom_right{
     float: right;
+    margin-right: 15px;
 }
 
 a{
     margin: 0.35rem;
+    text-decoration: none;
 }
 
 footer{
     position: fixed;
     bottom: 0;
     border-top: 1px solid lightgrey;
-    /* margin-top: 17.75rem; */
-    
     background-color: rgb(230, 230, 230);
     width: 100%;
 }
@@ -57,3 +57,18 @@ button{
     height: 2.75em;
     background: rgb(241, 241, 241);
 }
+
+footer > a{
+    margin-left: 15px;
+    color: rgb(172, 167, 167);
+}
+
+@media only screen and (max-width: 1600px) {
+    input{
+        width: 348.3px;
+    }
+  }
+
+
+
+
